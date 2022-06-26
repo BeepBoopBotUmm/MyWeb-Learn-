@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/MyWeb-Learn-/static/media/Instagram_Logo.34ada163.png"
   },
   {
-    "revision": "ee64fb9d3f1ba2333e1b489283925bce",
-    "url": "/MyWeb-Learn-/static/media/futura-medium-bt.ee64fb9d.ttf"
-  },
-  {
     "revision": "a6509aa3161205ebe01c0f7e2f209b44",
     "url": "/MyWeb-Learn-/static/media/LeagueSpartan-Bold.a6509aa3.otf"
+  },
+  {
+    "revision": "ee64fb9d3f1ba2333e1b489283925bce",
+    "url": "/MyWeb-Learn-/static/media/futura-medium-bt.ee64fb9d.ttf"
   },
   {
     "revision": "3d74e8bfd4ef7985f7529bb9f7650eca",
