@@ -18,8 +18,10 @@ function App() {
     if(e.matches) {
       Nav(navigate,'/Potrait')
       console.log('Change to potrait')
-      StandLocation = location.pathname.replace('/MyWeb-Learn-','')
-      AlrChange = true
+      if (StandLocation !== '/Potrait'){
+        StandLocation = location.pathname.replace('/MyWeb-Learn-','')
+        AlrChange = true
+      }
     } else {
       console.log('in landscape')
       if (AlrChange === true){
