@@ -1,0 +1,68 @@
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  body {
+    background-color: rgb(255, 253, 250);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: auto;
+  }
+  
+  head {
+    size: 50px;
+  }
+  .WelcomeTxt h1 {
+    animation: FadeWelcome 1 2s linear;
+    -webkit-animation: FadeWelcome 1 2s linear;
+    margin: 0;
+    position: absolute;
+    visibility: visible;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  @keyframes FadeWelcome {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes FadeWelcome {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  @keyframes SetOutAnim {
+    0% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 0.8;
+    }
+    100% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+  }
+  
+  
+  

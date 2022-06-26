@@ -1,0 +1,44 @@
+            <header>
+              <section class="header">
+                  <section class="TitleForinfo">
+                      <h1>Play Easy difficulty obby On Roblox</h1>
+                      <p>
+                          <a href="https://www.roblox.com/games/8815373768/Easy-difficulty-obby-Update"> Easy difficulty obby</a> There is a game made and developed by the group <a href="https://www.roblox.com/groups/10801853/My-name-is-that#!/about"> My name is that</a> you can play this game in <a href="https://www.roblox.com/home">Roblox</a>
+                      </p>
+                  </section>
+              </section>
+            </header>
+          <section class="Info">
+              <ul>
+                  <li>
+                      <a href="https://discord.gg/cRJX88vWMd">Discord Server</a>
+                      <p>
+                          Join our <br/> Discord server <br/>to get the <br/>latest updates
+                      </p>
+                  </li>
+                  <li>
+                      <a href="Developer.html">Developer</a>
+                      <p>
+                          Follow Dev
+                      </p>
+                  </li>
+              </ul>
+          </section>
+
+
+          //    <div className="App">
+            //      <header className="App-header">
+            //        <img src={logo} className="App-logo" alt="logo"/>
+            //        <p>
+            //          Edit <code>src/App.js</code> and save to reload.
+            //        </p>
+            //        <a
+            //          className="App-link"
+            //          href="https://reactjs.org"
+            //          target="_blank"
+            //          rel="noopener noreferrer"
+            //        >
+            //          Learn React
+            //        </a>
+            //      </header>
+            //    </div>

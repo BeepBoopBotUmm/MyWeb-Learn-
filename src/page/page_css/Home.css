@@ -1,0 +1,113 @@
+@font-face {
+  font-family: LeagueSpartan-Bold;
+  src: url("../../Font/LeagueSpartan-Bold.otf");
+}
+
+@font-face {
+  font-family: futura-medium-bt;
+  src: url(../../Font/futura-medium-bt.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(255, 253, 250);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: auto;
+}
+
+.TopBar ul {
+    display: flex;
+    justify-content: center;
+    margin-left: 80%;
+}
+  
+.TopBar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    text-align: 10px;
+    color: black;
+    font-family: LeagueSpartan-Bold;
+}
+
+.TopBar ul li:hover {
+  animation: Hover 1 0.2s linear;
+  animation-fill-mode: forwards;
+}
+
+.Perkenalan {
+  margin-top: 95px;
+  margin-left: 20px;
+}
+.Perkenalan h1 {
+  font-family: LeagueSpartan-Bold;
+  animation: text-pop-up-top 1 0.5s forwards;
+}
+
+.Perkenalan p {
+  font-size: 22px;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(54, 54, 54);
+}
+.Perkenalan p a {
+  color: rgb(48, 48, 48);
+}
+.Programlan {
+  margin: 0 auto;
+  position: absolute;
+  visibility: visible;
+  left: 50%;
+  top: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  top: 520px;
+}
+.Programlan h1{
+  font-size: 24px;
+  font-family: futura-medium-bt;
+}
+
+.Programlan ul {
+  display: flex;
+  justify-content: center;
+}
+.Programlan ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  text-align: 10px;
+  font-size: 19px;
+  color: rgb(37, 37, 37);
+  font-family: 'Roboto Slab', serif;
+}
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@keyframes Hover {
+  from {
+    color: black;
+  }
+  to {
+    color: blueviolet;
+  }
+}
+
+
+  
