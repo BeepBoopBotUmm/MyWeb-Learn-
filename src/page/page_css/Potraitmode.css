@@ -1,0 +1,33 @@
+@font-face {
+    font-family: LeagueSpartan-Bold;
+    src: url("../../Font/LeagueSpartan-Bold.otf");
+}
+
+@font-face {
+    font-family: futura-medium-bt;
+    src: url(../../Font/futura-medium-bt.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 253, 250);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+.Info h1{
+    margin: 0;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    color: black; 
+}
