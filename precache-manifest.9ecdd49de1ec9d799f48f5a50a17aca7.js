@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "e653910cdbb5f28e84f6",
+    "revision": "9f42fe28e86137f21897",
     "url": "/MyWeb-Learn-/static/css/main.b5a7143c.chunk.css"
   },
   {
-    "revision": "e653910cdbb5f28e84f6",
-    "url": "/MyWeb-Learn-/static/js/main.e653910c.chunk.js"
+    "revision": "9f42fe28e86137f21897",
+    "url": "/MyWeb-Learn-/static/js/main.9f42fe28.chunk.js"
   },
   {
     "revision": "af08dc77e4e76da41e54",
     "url": "/MyWeb-Learn-/static/js/1.af08dc77.chunk.js"
   },
   {
-    "revision": "22c31a72ed835e4963f4",
-    "url": "/MyWeb-Learn-/static/js/2.22c31a72.chunk.js"
+    "revision": "d722272d5a7f8a8d8cc3",
+    "url": "/MyWeb-Learn-/static/js/2.d722272d.chunk.js"
   },
   {
     "revision": "38914f8e5dc9ece4e4d9",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/MyWeb-Learn-/static/media/Instagram_Logo.34ada163.png"
   },
   {
-    "revision": "a6509aa3161205ebe01c0f7e2f209b44",
-    "url": "/MyWeb-Learn-/static/media/LeagueSpartan-Bold.a6509aa3.otf"
-  },
-  {
     "revision": "ee64fb9d3f1ba2333e1b489283925bce",
     "url": "/MyWeb-Learn-/static/media/futura-medium-bt.ee64fb9d.ttf"
+  },
+  {
+    "revision": "a6509aa3161205ebe01c0f7e2f209b44",
+    "url": "/MyWeb-Learn-/static/media/LeagueSpartan-Bold.a6509aa3.otf"
   },
   {
     "revision": "3d74e8bfd4ef7985f7529bb9f7650eca",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/MyWeb-Learn-/static/media/Roblox Logo.ab972375.png"
   },
   {
-    "revision": "2aa2cfb4fd2a977335f3a65c9c58a8c9",
+    "revision": "bda9cf65f85958849f17b4f20d11313a",
     "url": "/MyWeb-Learn-/index.html"
   }
 ];
