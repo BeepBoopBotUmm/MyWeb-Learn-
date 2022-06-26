@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "69a039ec6bdb863659a2",
-    "url": "/MyWeb-Learn-/static/css/main.f1d8cc1d.chunk.css"
+    "revision": "04d6c56e25071bb52a9d",
+    "url": "/MyWeb-Learn-/static/css/main.dc418d90.chunk.css"
   },
   {
-    "revision": "69a039ec6bdb863659a2",
-    "url": "/MyWeb-Learn-/static/js/main.69a039ec.chunk.js"
+    "revision": "04d6c56e25071bb52a9d",
+    "url": "/MyWeb-Learn-/static/js/main.04d6c56e.chunk.js"
   },
   {
-    "revision": "af08dc77e4e76da41e54",
-    "url": "/MyWeb-Learn-/static/js/1.af08dc77.chunk.js"
+    "revision": "f12bf432d1b1b25fb939",
+    "url": "/MyWeb-Learn-/static/js/1.f12bf432.chunk.js"
   },
   {
     "revision": "22c31a72ed835e4963f4",
     "url": "/MyWeb-Learn-/static/js/2.22c31a72.chunk.js"
   },
   {
-    "revision": "38914f8e5dc9ece4e4d9",
-    "url": "/MyWeb-Learn-/static/js/runtime~main.38914f8e.js"
+    "revision": "8009ebf2b1f72937c9ae",
+    "url": "/MyWeb-Learn-/static/js/runtime~main.8009ebf2.js"
   },
   {
     "revision": "34ada1638ef7bef370e593e45e2cd29a",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/MyWeb-Learn-/static/media/Roblox Logo.ab972375.png"
   },
   {
-    "revision": "f251321aca42a7405e3188ff7b61264d",
+    "revision": "79fd24927fbdf91e726aed3f9bf13478",
     "url": "/MyWeb-Learn-/index.html"
   }
 ];
