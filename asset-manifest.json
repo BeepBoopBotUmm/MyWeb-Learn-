@@ -1,7 +1,7 @@
 {
   "main.css": "/MyWeb-Learn-/static/css/main.b5a7143c.chunk.css",
-  "main.js": "/MyWeb-Learn-/static/js/main.7aa9d8d5.chunk.js",
-  "main.js.map": "/MyWeb-Learn-/static/js/main.7aa9d8d5.chunk.js.map",
+  "main.js": "/MyWeb-Learn-/static/js/main.121ab9fb.chunk.js",
+  "main.js.map": "/MyWeb-Learn-/static/js/main.121ab9fb.chunk.js.map",
   "static/js/1.af08dc77.chunk.js": "/MyWeb-Learn-/static/js/1.af08dc77.chunk.js",
   "static/js/1.af08dc77.chunk.js.map": "/MyWeb-Learn-/static/js/1.af08dc77.chunk.js.map",
   "static/js/2.85762dca.chunk.js": "/MyWeb-Learn-/static/js/2.85762dca.chunk.js",
@@ -15,6 +15,6 @@
   "static/media/Roblox Logo.png": "/MyWeb-Learn-/static/media/Roblox Logo.ab972375.png",
   "static/css/main.b5a7143c.chunk.css.map": "/MyWeb-Learn-/static/css/main.b5a7143c.chunk.css.map",
   "index.html": "/MyWeb-Learn-/index.html",
-  "precache-manifest.b008d16e4196d6a2089cb3787904c440.js": "/MyWeb-Learn-/precache-manifest.b008d16e4196d6a2089cb3787904c440.js",
+  "precache-manifest.8a1d5a0bdd55795692462ca1ed667d52.js": "/MyWeb-Learn-/precache-manifest.8a1d5a0bdd55795692462ca1ed667d52.js",
   "service-worker.js": "/MyWeb-Learn-/service-worker.js"
 }

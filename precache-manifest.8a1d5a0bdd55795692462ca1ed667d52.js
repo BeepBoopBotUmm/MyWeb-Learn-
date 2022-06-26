@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7aa9d8d5065d4a69af46",
+    "revision": "121ab9fb62eaad79e7bf",
     "url": "/MyWeb-Learn-/static/css/main.b5a7143c.chunk.css"
   },
   {
-    "revision": "7aa9d8d5065d4a69af46",
-    "url": "/MyWeb-Learn-/static/js/main.7aa9d8d5.chunk.js"
+    "revision": "121ab9fb62eaad79e7bf",
+    "url": "/MyWeb-Learn-/static/js/main.121ab9fb.chunk.js"
   },
   {
     "revision": "af08dc77e4e76da41e54",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/MyWeb-Learn-/static/media/Roblox Logo.ab972375.png"
   },
   {
-    "revision": "d75dedfbd79200997e8e5f2eb1e47d1d",
+    "revision": "f105aaf111b98aca29b13b05794f4f70",
     "url": "/MyWeb-Learn-/index.html"
   }
 ];
