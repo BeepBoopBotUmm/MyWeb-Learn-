@@ -17,11 +17,12 @@ async function MouseLvButt(){
 }
 
 function Project() {
+    let navigate = useNavigate()
     return (
         <>
             <body>
                 <section className='HomeButt'>
-                    <button onMouseEnter={() =>  MouseEnterButt()} onMouseLeave={() => MouseLvButt()} onClick={() => Nav('/Home')}>Home</button>
+                    <button onMouseEnter={() =>  MouseEnterButt()} onMouseLeave={() => MouseLvButt()} onClick={() => Nav(navigate,'/Home')}>Home</button>
                 </section>
                 <section className='Info'>
                     <h1>My Current Project</h1>

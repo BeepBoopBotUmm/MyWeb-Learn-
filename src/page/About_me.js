@@ -74,11 +74,12 @@ async function MouseLvButt(){
 }
 
 function About_me() {
+    let navigate = useNavigate()
     return (
         <>
             <body>
                 <section className='Title'>
-                    <button onMouseEnter={() =>  MouseEnterButt()} onMouseLeave={() => MouseLvButt()} onClick={() => Nav(useNavigate,'/Home')}>Home</button>
+                    <button onMouseEnter={() =>  MouseEnterButt()} onMouseLeave={() => MouseLvButt()} onClick={() => Nav(navigate,'/Home')}>Home</button>
                 </section>
                 <div className='ImageDisplay'>
                     <img src={require('../Image/Instagram_Logo.png')} onAnimationEnd={(n) => VisIt(n)} />
