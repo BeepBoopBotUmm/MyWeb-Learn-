@@ -2,6 +2,7 @@ import './page_css/About_me.css';
 import React, { Component } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import AddStyle from '../SrcFuncCode/AddStyle'
+import Nav from '../SrcFuncCode/Nav'
 
 let Ig = require('../Image/Instagram_Logo.png')
 
@@ -72,16 +73,12 @@ async function MouseLvButt(){
     AddStyle(element,'animation-fill-mode','forwards')
 }
 
-async function GobackHome(navigate){
-    navigate('/Home')
-}
 function About_me() {
-    let navigate = useNavigate();
     return (
         <>
             <body>
                 <section className='Title'>
-                    <button onMouseEnter={() =>  MouseEnterButt()} onMouseLeave={() => MouseLvButt()} onClick={() => GobackHome(navigate)}>Home</button>
+                    <button onMouseEnter={() =>  MouseEnterButt()} onMouseLeave={() => MouseLvButt()} onClick={() => Nav(useNavigate,'/Home')}>Home</button>
                 </section>
                 <div className='ImageDisplay'>
                     <img src={require('../Image/Instagram_Logo.png')} onAnimationEnd={(n) => VisIt(n)} />

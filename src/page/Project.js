@@ -2,6 +2,7 @@ import './page_css/Project.css';
 import React, { Component } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import AddStyle from '../SrcFuncCode/AddStyle'
+import Nav from '../SrcFuncCode/Nav'
 
 async function MouseEnterButt(){
     var element = document.querySelector('.HomeButt button')
@@ -15,17 +16,12 @@ async function MouseLvButt(){
     AddStyle(element,'animation-fill-mode','forwards')
 }
 
-async function GobackHome(navigate){
-    navigate('/Home')
-}
-
 function Project() {
-    let navigate = useNavigate()
     return (
         <>
             <body>
                 <section className='HomeButt'>
-                    <button onMouseEnter={() =>  MouseEnterButt()} onMouseLeave={() => MouseLvButt()} onClick={() => GobackHome(navigate)}>Home</button>
+                    <button onMouseEnter={() =>  MouseEnterButt()} onMouseLeave={() => MouseLvButt()} onClick={() => Nav('/Home')}>Home</button>
                 </section>
                 <section className='Info'>
                     <h1>My Current Project</h1>

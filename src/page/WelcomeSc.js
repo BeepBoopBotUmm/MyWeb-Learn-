@@ -10,7 +10,7 @@ async function ChangeWeb(navigate,n) {
     element.style.animation = 'SetOutAnim 0.8s cubic-bezier(0.755, 0.050, 0.855, 0.060) both'
   }else if (n.animationName === 'SetOutAnim') {
     await Wait(1,'s')
-    navigate("/Home")
+    navigate("/MyWeb-Learn-/Home")
   }
 }
 function Welcome() {

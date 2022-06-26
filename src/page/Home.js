@@ -1,6 +1,7 @@
 import './page_css/Home.css';
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
+//import Nav from '../SrcFuncCode/Nav';
 
 function Home() {
   return (
@@ -8,9 +9,9 @@ function Home() {
       <body>
         <section className='TopBar'>
           <ul>
-            <Link to='/Home'><li>Home</li></Link>
-            <Link to='/About'><li>About me</li></Link>
-            <Link to='/Project'><li>Project</li></Link>
+            <li><Link to="/MyWeb-Learn-/Home">Home</Link></li>
+            <li><Link to="/MyWeb-Learn-/About">About me</Link></li>
+            <li><Link to="/MyWeb-Learn-/Project">Project</Link></li>
           </ul>
         </section>
         <div className='Perkenalan'>
