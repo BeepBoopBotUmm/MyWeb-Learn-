@@ -8,8 +8,8 @@ async function Nav(navigate,Direct){
     }else {
         if (Direct.charAt(0) === '/'){
             console.log('pass 2')
-            let NewDir = MainLink + Direct
             console.log(NewDir)
+            let NewDir = MainLink + Direct
             navigate(NewDir)
         }else{
             console.warn('Error Invalid Link')
