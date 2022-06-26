@@ -9,9 +9,9 @@ function Home() {
       <body>
         <section className='TopBar'>
           <ul>
-            <Link to="/MyWeb-Learn-/Home"><li>Home</li></Link>
-            <Link to="/MyWeb-Learn-/About"><li>About me</li></Link>
-            <li><Link to="/MyWeb-Learn-/Project">Project</Link></li>
+            <li><Link to="/MyWeb-Learn-/Home" className='LinkNav'>Home</Link></li>
+            <li><Link to="/MyWeb-Learn-/About" className='LinkNav'>About me</Link></li>
+            <li><Link to="/MyWeb-Learn-/Project" className='LinkNav'>Project</Link></li>
           </ul>
         </section>
         <div className='Perkenalan'>
